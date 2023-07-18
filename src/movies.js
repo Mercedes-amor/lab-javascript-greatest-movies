@@ -15,7 +15,7 @@ function getAllDirectors(moviesArray) {
 function howManyMovies(moviesArray) {
     let contador = 0
 
-    let filteredMoviesSpielberg = moviesArray.filter((eachMovie) => {
+    moviesArray.filter((eachMovie) => {
     
 
     if (eachMovie.director === "Steven Spielberg" && eachMovie.genre.includes("Drama")) {
