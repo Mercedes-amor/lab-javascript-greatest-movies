@@ -75,7 +75,7 @@ function orderByYear(moviesArray) {
         } else if (a.year < b.year) {
             return -1
         } else if (a.year === b.year) 
-       { return b.title.localeCompare (a.title.localeCompare)
+       { return a.title.localeCompare (b.title)
         }
     
     })
@@ -106,7 +106,7 @@ function orderAlphabetically(moviesArray) {
 
 }
 
-console.log (titleArray)
+// console.log (cloneMoviesArray)
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
 function turnHoursToMinutes(moviesArray) {}
